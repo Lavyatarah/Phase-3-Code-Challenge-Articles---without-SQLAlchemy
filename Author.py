@@ -1,5 +1,8 @@
-class Author:
-    all_authors = []
+class Author: 
+    def __init__(self, name):
+        all_authors = []
+    def get_name(self):
+        return self._name
 
 def __init__(self, name):
     self._name = name
